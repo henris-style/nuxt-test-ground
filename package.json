@@ -15,7 +15,7 @@
 	"dependencies": {
 		"@henris/next": "^1.0.6",
 		"@nuxtjs/axios": "^5.3.6",
-		"henris": "^0.6.4",
+		"henris": "^1.2.14",
 		"nuxt": "^2.5.0"
 	},
 	"devDependencies": {
