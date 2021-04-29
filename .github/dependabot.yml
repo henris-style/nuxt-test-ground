@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@nuxtjs/axios"
+    versions:
+    - 5.12.5
+    - 5.13.0
+  - dependency-name: eslint-plugin-prettier
+    versions:
+    - 3.3.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: "@nuxt/devalue"
+    versions:
+    - 1.2.4
